@@ -1,0 +1,57 @@
+{
+  "name": "projectname",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "NODE_ENV=PRODUCTION node app/main.js",
+    "dev": "NODE_ENV=DEVELOPMENT node app/main.js",
+    "debug": "NODE_ENV=DEBUG node app/main.js",
+    "gulp": "gulp",
+    "pkg": "app.js"
+  },
+  "keywords": [],
+  "author": "Lincoln Aleixo",
+  "bin": "app/main.js",
+  "pkg": {
+    "scripts": [
+      "app/**/*"
+    ]
+  },
+  "engines": {
+    "node": ">=12.16.3"
+  },
+  "dependencies": {
+    "nodemailer": "6.4.6",
+    "cawer": "^1.0.6",
+    "dotenv": "^8.2.0",
+    "json-find": "2.0.7",
+    "jsonfile": "6.0.1",
+    "logering": "^0.0.2",
+    "mkdirp": "1.0.4",
+    "moment-timezone": "^0.5.28",
+    "node-fetch": "^2.6.0",
+    "spidering": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "shelljs": "0.8.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "clean-css": "4.2.3",
+    "pkg": "4.4.8",
+    "gulp": "4.0.2",
+    "gulp-javascript-obfuscator": "1.1.6",
+    "gulp-uglify-es": "2.0.0",
+    "javascript-obfuscator": "0.28.0",
+    "uglify-es": "3.3.9",
+    "eslint-config-node-script-js": "1.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincolnaleixo/node-package-boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/lincolnaleixo/node-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lincolnaleixo/node-package-boilerplate#readme"
+}
